@@ -1,0 +1,53 @@
+{
+  "name": "vision-eyeware",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": "16.13.0",
+    "npm": "8.3.0"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.8.2",
+    "@emotion/styled": "^11.8.1",
+    "@mui/icons-material": "^5.5.0",
+    "@mui/material": "^5.5.0",
+    "@stripe/stripe-js": "^1.24.0",
+    "firebase": "9.6.8",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-redux": "7.2.6",
+    "react-router-dom": "6.2.2",
+    "redux": "4.1.2",
+    "redux-persist": "6.0.0",
+    "redux-saga": "^1.1.3",
+    "reselect": "4.1.5"
+  },
+  "devDependencies": {
+    "react-scripts": "5.0.0",
+    "redux-logger": "3.0.6"
+  },
+  "resolutions": {
+    "babel-jest": "24.7.1"
+  },
+  "scripts": {
+    "start": "set PORT=3006 && react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
